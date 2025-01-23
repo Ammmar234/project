@@ -34,9 +34,8 @@ export const Products = {
       },
       {
           name: 'image',
-          label: 'Image',
-          type: 'upload',
-          relationTo : 'media',
+          label: 'ImageUrl',
+          type: 'text',
           required: true,
       },
       {
@@ -56,7 +55,7 @@ export const Products = {
                   name: 'name',
                   label: 'Name',
                   type: 'text',
-                  required: true,
+                  required: false,
               },
           ],
       },
