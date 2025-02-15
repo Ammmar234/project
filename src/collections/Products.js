@@ -19,18 +19,7 @@ export const Products = {
           label: 'Description',
           type: 'richText',
           required: true,
-      },
-      {
-          name: 'price',
-          label: 'Price',
-          type: 'number',
-          required: true,
-      },
-      {
-          name: 'quantity',
-          label: 'Quantity',
-          type: 'number',
-          required: true,
+          
       },
       {
           name: 'image',
